@@ -24,8 +24,20 @@
 			<td>Spark Plugs</td>
 			<td align="center"><input type="text" name="sparkqty" size="3"
 				maxlength="3" /></td>
-		<tr height="10px"/>
-		<tr/>
+
+
+		<tr height="10px" />
+
+		<tr>
+			<td>Source:</td>
+			<td><select name="find">
+					<option value="a">FROM LOCAL MALL</option>
+					<option value="b">FROM WEB</option>
+					<option value="c">FROM FRIENDS</option>
+			</select></td>
+
+		</tr>
+		<tr height="10px" />
 		<tr>
 			<td colspan="2" align="center"><input type="submit"
 				value="Submit Order" /></td>
